@@ -1,0 +1,21 @@
+---
+spring:
+  profiles: uat
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: eureka-sit-server
+---
+spring:
+  profiles: uat
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: eureka-uat-server
+---
+spring:
+  profiles: prod
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: eureka-prod-server
