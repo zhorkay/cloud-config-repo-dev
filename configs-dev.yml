@@ -1,0 +1,15 @@
+my:
+  greeting: Hijack
+  locations:
+    values: US, IN, EU, CH, HK
+
+db:
+  connection:
+    host: localhost
+    port: 3000
+    database: temp
+    user: usr
+    password: pwd
+
+management.endpoints.web.include: "*"
+spring.profiles.active: dev
