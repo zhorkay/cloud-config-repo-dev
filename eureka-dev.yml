@@ -1,4 +1,13 @@
+---
 eureka:
   client:
     serviceUrl:
       defaultZone: eureka-dev-server
+---
+spring:
+  profiles: prod
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: eureka-prod-server
+
