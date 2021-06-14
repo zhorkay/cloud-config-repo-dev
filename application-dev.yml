@@ -1,0 +1,6 @@
+dev.database.url: my-dev-db-connection-string
+
+my:
+  dev:
+    variable:
+      value: some dev val
